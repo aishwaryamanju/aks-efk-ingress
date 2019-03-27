@@ -11,7 +11,7 @@ spec:
   - host: 
     http:
       paths:
-      - path: /kibana
+      - path: /
         backend:
           serviceName: kibana
           servicePort: 5601
