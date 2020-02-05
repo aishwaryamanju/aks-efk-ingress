@@ -4,8 +4,7 @@ metadata:
   name: kibana-ingress
   namespace: kube-logging
   annotations:
-    nginx.ingress.kubernetes.io/rewrite-target: /
-    nginx.ingress.kubernetes.io/ssl-redirect: "false"
+    kubernetes.io/ingress.class: addon-http-application-routing
 spec:
   rules:
   - host: 
